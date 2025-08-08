@@ -1,0 +1,28 @@
+body {
+  /* remove margins and scroll bars */
+  margin: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+
+  /* layout */
+  text-align: center;
+
+  /* style text */
+  font-size: 12px;
+  font-family: Sans-Serif;
+
+  /* color text */
+  color: #333;
+}
+
+#scene-container {
+  /* tell our scene container to take up the full page */
+  width: 100%;
+  height: calc(100vh - 12px);
+
+  /*
+    Set the container's background color to the same as the scene's
+    background to prevent flashing on load
+  */
+  background-color: skyblue;
+}
